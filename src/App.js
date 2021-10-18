@@ -1,11 +1,10 @@
 import "./App.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import Icon from "./components/icons/icon.js";
 
 function App() {
   return (
     <div className="icon">
-      <FontAwesomeIcon icon={faCoffee} />
+      <Icon />
     </div>
   );
 }
